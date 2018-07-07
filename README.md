@@ -1,4 +1,4 @@
-# State Mangement Makes easy React
+# State Mangement Makes easy for React Apps
 
 
 ### text component

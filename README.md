@@ -1,4 +1,4 @@
-# State Mangement in React
+# State Mangement Makes easy React
 
 
 ### text component

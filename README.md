@@ -1,6 +1,8 @@
 # State Mangement Makes easy for React Apps
 
 
+![React -store](https://raw.githubusercontent.com/saigowthamr/React-Store/master/screenshot.gif)
+
 ### text component
 ```javascript
 import React from "react";

@@ -12,15 +12,6 @@ class Todo extends React.Component {
             })
         this.input.value = ''
     }
-
-    componentDidMount() {
-
-       }
-
-    componentWillMount() {
-
-    }
-
     render() {
         return (
             <div>
@@ -40,6 +31,5 @@ class Todo extends React.Component {
 
     }
 }
-
 
 export default Todo;

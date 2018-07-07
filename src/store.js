@@ -1,17 +1,24 @@
-import Hold from "./index";
+
 import { reducer } from './reducers'; //import your reducer
 
 let state;
 
 const getState = () => state;
 
+const listeners = [];
+
 const dispatch = action => {
   state = reducer(action, state);
-  console.log(state);
-  if (Hold) {
-    Hold();
+  listeners.forEach(listener => listener())
+};
+
+const subscribe = (listener) => {
+  listeners.push(listener)
+  return () => {
+    listeners.filter(lis => lis !== listener)
   }
 };
+
 
 dispatch({});
 
@@ -33,4 +40,4 @@ const thunk = function(cb, request, delay) {
   Async(cb, request);
 };
 
-export { getState, dispatch, thunk};
+export { getState, dispatch, thunk,subscribe};

@@ -3,7 +3,7 @@ import CounterButtons from "./counterbuttons";
 import Text from "./text";
 import Todo from "./todo";
 import FetchData from "./fetch";
-import { getState} from "./store";
+import { getState } from "./store";
 
 class App extends Component {
   render() {

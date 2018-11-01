@@ -1,5 +1,5 @@
 import React from 'react';
-import { getState, dispatch} from './store'
+import { getState, dispatch } from './store'
 
 
 class Todo extends React.Component {

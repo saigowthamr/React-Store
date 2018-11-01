@@ -1,7 +1,7 @@
 import React from "react";
 import { getState } from "./store";
 
-function Text(props) {
+function Text() {
   return (
     <div>
       <h3>Component 2</h3>

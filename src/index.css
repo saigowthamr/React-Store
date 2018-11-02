@@ -1,28 +1,27 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-
-ul{
-  list-style-type:circle;
+ul {
+    list-style-type: circle;
 }
 
-.App{
-  text-align: center
+.App {
+    text-align: center;
 }
 
-input{
-   width: 10rem;
-   height: 2rem;
+input {
+    width: 10rem;
+    height: 2rem;
 }
 
-button{
-  padding: .3rem;
-  color:rgb(255, 255, 255);
-  background-color: rgb(8, 7, 7);
-  height: 2rem;
-  cursor: pointer;
-  margin-left: .3rem;
+button {
+    padding: 0.3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 7, 7);
+    height: 2rem;
+    cursor: pointer;
+    margin-left: 0.3rem;
 }
